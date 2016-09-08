@@ -14,8 +14,8 @@ export class Notes{
     @ViewChild(NoteCreator) creator: NoteCreator
 
     notes = [
-    {"title":"titt", "value": "vv"},
-    {"title":"222", "value": "vv"},
+    {"title":"titt", "value": "vv", "color": 'white'},
+    {"title":"222", "value": "vv", "color": 'white'},
 ]
     checkCard(note,index){
         console.log(note)
